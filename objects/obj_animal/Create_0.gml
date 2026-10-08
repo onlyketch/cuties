@@ -1,7 +1,19 @@
 image_speed = 0;
-image_index = 1;
 speed = 2;
 direction = 180;
+
+
+/* Generate Random Index */
+
+rnd_index = irandom_range(0, 9);
+
+while (rnd_index == global.last_animal_image) {
+	rnd_index = irandom_range(0, 9);
+}
+image_index = rnd_index;
+global.last_animal_image = rnd_index;
+
+/*----------END----------*/
 
 state = 0;
 offset_x = sprite_get_width(s_left_border);
