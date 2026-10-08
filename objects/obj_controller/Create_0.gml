@@ -1,0 +1,1 @@
+global.animals_arr = [{ index: -1, x_pos: room_width }];

@@ -1,9 +1,12 @@
 if (state == 2) {
 	
-	if (x + sprite_width >= room_width) {
+	var last = array_last(global.animals_arr);
+	
+	if (x + sprite_width >= last.x_pos) {
 		state = 3;
-		x = room_width - sprite_width;
+		x = last.x_pos - sprite_width;
 		speed = 0;
+		array_push(global.animals_arr, { index: image_index, x_pos: x });
 	}
 	
 }
