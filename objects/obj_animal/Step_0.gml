@@ -7,6 +7,7 @@ if (state == 2) {
 		x = last.x_pos - sprite_width;
 		speed = 0;
 		array_push(global.animals_arr, { index: image_index, x_pos: x });
+		
 	}
 	
 }

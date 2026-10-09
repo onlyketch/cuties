@@ -43,6 +43,7 @@
     {"id":{"name":"obj_platform","path":"objects/obj_platform/obj_platform.yy",},},
     {"id":{"name":"obj_top_border","path":"objects/obj_top_border/obj_top_border.yy",},},
     {"id":{"name":"r_game","path":"rooms/r_game/r_game.yy",},},
+    {"id":{"name":"InitialFillArr","path":"scripts/InitialFillArr/InitialFillArr.yy",},},
     {"id":{"name":"s_animals","path":"sprites/s_animals/s_animals.yy",},},
     {"id":{"name":"s_left_border","path":"sprites/s_left_border/s_left_border.yy",},},
     {"id":{"name":"s_platform","path":"sprites/s_platform/s_platform.yy",},},
