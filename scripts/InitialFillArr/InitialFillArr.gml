@@ -5,9 +5,10 @@ function fill_array(count){
 	
 	repeat (count) {
 	
-		instance_create_layer(pos_x, pos_y, "Instances", obj_animal, {state: 3});
+		var animal = instance_create_layer(pos_x, pos_y, "Instances", obj_animal, {state: 3});
 
 		array_push(global.animals_arr, {
+			key: animal.id,
 			index: global.last_animal_image,
 			x_pos: pos_x
 		});

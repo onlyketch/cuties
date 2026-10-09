@@ -6,8 +6,8 @@ if (state == 2) {
 		state = 3;
 		x = last.x_pos - sprite_width;
 		speed = 0;
-		array_push(global.animals_arr, { index: image_index, x_pos: x });
-		
+		array_push(global.animals_arr, { key: id, index: image_index, x_pos: x });
+		match_check(global.animals_arr);
 	}
 	
 }
