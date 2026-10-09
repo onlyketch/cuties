@@ -3,7 +3,7 @@ image_speed = 0;
 if (state == 3) {
 	speed = 0
 } else {
-	speed = 1;
+	speed = 2;
 }
 
 direction = 180;
@@ -12,10 +12,10 @@ used = false;
 
 
 /* Generate Random Index */
-rnd_index = irandom_range(0, 4);
+rnd_index = irandom_range(0, 3);
 
 while (rnd_index == global.last_animal_image) {
-	rnd_index = irandom_range(0, 4);
+	rnd_index = irandom_range(0, 3);
 }
 image_index = rnd_index;
 global.last_animal_image = rnd_index;
