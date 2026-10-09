@@ -1,6 +1,6 @@
 function match_check(arr) {
 		
-		if (array_length(arr) > 4) {
+		if (array_length(arr) > 2) {
 			
 			var last_index = array_length(arr) - 1;
 			
