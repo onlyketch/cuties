@@ -35,6 +35,7 @@
   },
   "name":"Cuties",
   "resources":[
+    {"id":{"name":"font_unbounded_big","path":"fonts/font_unbounded_big/font_unbounded_big.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"Tasks","path":"notes/Tasks/Tasks.yy",},},
     {"id":{"name":"obj_animal","path":"objects/obj_animal/obj_animal.yy",},},
@@ -42,6 +43,7 @@
     {"id":{"name":"obj_debug","path":"objects/obj_debug/obj_debug.yy",},},
     {"id":{"name":"obj_left_border","path":"objects/obj_left_border/obj_left_border.yy",},},
     {"id":{"name":"obj_platform","path":"objects/obj_platform/obj_platform.yy",},},
+    {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
     {"id":{"name":"obj_top_border","path":"objects/obj_top_border/obj_top_border.yy",},},
     {"id":{"name":"r_game","path":"rooms/r_game/r_game.yy",},},
     {"id":{"name":"InitialFillArr","path":"scripts/InitialFillArr/InitialFillArr.yy",},},
