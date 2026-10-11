@@ -11,3 +11,7 @@ if (state == 2) {
 	}
 	
 }
+
+if (global.game_over && state != 3) {
+	instance_destroy();
+}

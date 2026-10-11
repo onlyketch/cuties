@@ -8,8 +8,6 @@ if (state == 3) {
 
 direction = 180;
 
-used = false;
-
 
 /* Generate Random Index */
 rnd_index = irandom_range(0, 3);
