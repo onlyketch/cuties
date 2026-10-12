@@ -1,0 +1,1 @@
+y = obj_platform.y + 264;
