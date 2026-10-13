@@ -4,7 +4,8 @@ global.animals_arr = [];
 global.game_over = false;
 global.last_animal_image = 0;
 global.initial_arr_count = 3;
-global.game_timer = 30;
+global.game_timer_val = 40;
+global.game_timer = global.game_timer_val;
 
 /* Initial Array Fill */
 fill_array(global.initial_arr_count);

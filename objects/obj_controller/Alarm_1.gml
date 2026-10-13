@@ -7,6 +7,8 @@ if (!global.game_over) {
 		
 	} else {
 		global.game_over = true;
+		obj_result_text.text = "Провал!";
+		obj_replay.image_index = 0;
 	}
 	
 }

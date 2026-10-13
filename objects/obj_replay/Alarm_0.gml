@@ -1,6 +1,6 @@
 global.animals_arr = [];
 global.last_animal_image = 0;
-global.game_timer = 30;
+global.game_timer = global.game_timer_val;
 obj_timer.visible = true;
 
 fill_array(global.initial_arr_count);

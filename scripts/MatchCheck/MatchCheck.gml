@@ -14,6 +14,13 @@ function match_check(arr) {
 					}
 					array_pop(arr);
 				}
+				
+				if (array_length(arr) == 0) {
+					global.game_over = true;
+					obj_result_text.text = "Уровень пройден!";
+					obj_replay.image_index = 1;
+				}
+				
 			}
 			
 		}

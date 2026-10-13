@@ -1,1 +1,1 @@
-text = "ПРОВАЛ!";
+text = "Game Over!";
